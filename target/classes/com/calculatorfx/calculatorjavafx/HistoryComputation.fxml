@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="pane1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="576.0" prefWidth="434.0" style="-fx-background-color: #0A1931;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.calculatorfx.calculatorjavafx.HistoryComputationController">
+   <children>
+      <Label alignment="CENTER" prefHeight="56.0" prefWidth="455.0" text="HISTORY COMPUTATION" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="lb1" alignment="CENTER" prefHeight="54.0" prefWidth="455.0" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+      <Label fx:id="lb2" alignment="CENTER" prefHeight="56.0" prefWidth="455.0" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+      <Label fx:id="lb3" alignment="CENTER" prefHeight="56.0" prefWidth="455.0" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+      <Label fx:id="lb4" alignment="CENTER" prefHeight="56.0" prefWidth="455.0" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+      <Label fx:id="lb5" alignment="CENTER" prefHeight="56.0" prefWidth="455.0" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+      <Label fx:id="lb6" alignment="CENTER" prefHeight="56.0" prefWidth="455.0" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+      <Label fx:id="lb7" alignment="CENTER" prefHeight="56.0" prefWidth="455.0" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+      <Label fx:id="lb8" alignment="CENTER" prefHeight="56.0" prefWidth="455.0" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+      <Label fx:id="lb9" alignment="CENTER" prefHeight="56.0" prefWidth="455.0" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+      <ButtonBar prefHeight="40.0" prefWidth="200.0">
+        <buttons>
+          <Button mnemonicParsing="false" onAction="#ClearButtonClicked" text="CLEAR" />
+            <Button mnemonicParsing="false" onAction="#BackButtonClicked" text="BACK" />
+        </buttons>
+         <padding>
+            <Insets right="10.0" />
+         </padding>
+      </ButtonBar>
+   </children>
+</VBox>
